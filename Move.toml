@@ -1,0 +1,15 @@
+[package]
+name = "attendence-trk"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x4b24964d52b4907b81f2acb42a3de3e75bc0725cbd6caf03e10d6cfe2f1ba636"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
